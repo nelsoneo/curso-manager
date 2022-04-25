@@ -1,9 +1,10 @@
 import { APP_BOOTSTRAP_LISTENER, Component, OnInit } from "@angular/core";
 import { Course } from "./course";
 
+
 @Component({
     selector: 'app-course-list',
-    templateUrl: './course-list.component.html'
+    templateUrl: './course-list.component.html',
 })
 export class CourseListComponent implements OnInit {
 
@@ -14,17 +15,17 @@ export class CourseListComponent implements OnInit {
             {
                 id: 1,
                 name: 'Angular: Forms',
-                imageUrl: '',
+                imageUrl: '.././assets/images/forms.png',
                 price: 99.99,
                 code: 'XPS-8796',
                 duration: 120,
-                rating: 4.5,
+                rating: 5,
                 realeseDate: 'April, 2022'
             },
             {
                 id: 2,
                 name: 'Angular: HTPP',
-                imageUrl: '',
+                imageUrl: '.././assets/images/http.png',
                 price: 50.99,
                 code: 'NHG-8996',
                 duration: 80,

@@ -1,4 +1,5 @@
 export class Course {
+    [x: string]: any;
     id: number | undefined;
     name: string | undefined;
     imageUrl: string | undefined;
@@ -6,5 +7,5 @@ export class Course {
     code: string| undefined;; 
     duration: number| undefined;;
     realeseDate: string| undefined;
-    rating: number| undefined;
+    rating: number=0;
 }
